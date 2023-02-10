@@ -1,0 +1,70 @@
+# end command gives space and connects to print statement 
+
+print("Welcome to", end = ' ')
+print("GeeksforGeeks", end= ' ')
+
+
+
+print("\n""\n""\n""\n""\n")
+
+print("fruit\n""fruit\n""fruit\n""fruit\n""fruit\n""fruit\n""fruit\n""fruit\n""fruit\n""fruit")
+
+print("++++\n""+++\n""++\n""+")
+
+print("+\n""++\n""+++\n""++++")
+
+print("  + \n"" ++ \n""+++\n"" ++ \n"," + ")
+
+
+
+#task 2 
+
+
+glass_of_water = 3
+print("I drank", glass_of_water, "glasses of water today.")
+
+
+
+glass_of_water=3
+
+glass_of_water=glass_of_water + 1
+
+print(glass_of_water)
+
+#What is the output of the following variable assignment?
+#dnt run 
+#just tell, x value
+x = 75
+
+def myfunc():
+    global x
+    x = x + 1
+    print(x)
+    
+myfunc()
+print(x)
+
+
+x = 50
+def fun1():
+    # your code to assign global x = 20
+
+    ''' print(x) # it should print 20
+5) What is the data type of print(type(10))?
+6)What is the output of the following code'''
+def func1():
+    global x
+    x = 20
+    return x
+func1()
+print(x)
+
+
+x = 50
+def fun1():
+    x = 25
+    print(x)
+    
+fun1()
+print(x)
+#the output is 25 and 50
